@@ -1,3 +1,8 @@
+body{
+    padding: 0 auto;
+    margin:0;
+    
+}
 h1{
     background-color: bisque;
     font-size: 50px;
@@ -6,5 +11,36 @@ h1{
 }
 img{
     width: 100%;
-    height: 600px;
+    height: 500px;
+}
+.classcontainer{
+    display:flex; 
+    justify-content: center;   
+    flex-wrap: wrap;
+    margin :auto;
+    padding-top: 20px;    
+}
+.card{
+    
+    
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+   
+    text-align: center;
+}
+.vistas .destinos{
+    text-align: center;
+}
+.card img {
+    width: 200PX;
+    height: 200PX;
+}
+.buton{
+    border-radius: 10px;    
+    border: 2px solid rgb(5, 5, 5);
+    background-color: rgb(52, 180, 138);   
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
 }
